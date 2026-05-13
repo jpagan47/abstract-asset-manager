@@ -1,4 +1,9 @@
-package PACKAGE_NAME;
+public class Stock extends Asset{
+    private int numberOfShares;
 
-public class Stock {
+    public Stock(int i, int i1) {
+        super();
+    }
+
+    private double
 }
