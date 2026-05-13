@@ -2,8 +2,15 @@ import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
-
-
+      ArrayList<Asset> assets = new ArrayList<>();
+      Asset myHouse = new House();
+      assets.add(myHouse);
+      Asset myCar = new Vehicle();
+      assets.add(myCar);
+      
+//      for( Assets a : assets){
+//
+//      }
 
 
 
