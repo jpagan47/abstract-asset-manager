@@ -7,7 +7,9 @@ public class Main {
       assets.add(myHouse);
       Asset myCar = new Vehicle();
       assets.add(myCar);
-      
+
+
+      Asset bedMoney = new Cash("tooth fairy", "11/11/2011", 23);
 //      for( Assets a : assets){
 //
 //      }

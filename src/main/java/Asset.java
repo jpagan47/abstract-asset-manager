@@ -1,13 +1,13 @@
-public class Asset{
-    private String description ;
-    private String dateAcquired ;
-    private double originalCost ;
+public abstract class Asset {
+    private String description;
+    private String dateAcquired;
+    private double originalCost;
+
     public Asset(String description, String dateAcquired, double originalCost) {
         this.description = description;
         this.dateAcquired = dateAcquired;
         this.originalCost = originalCost;
     }
-
 
 
     public String getDescription() {
@@ -35,8 +35,5 @@ public class Asset{
     }
 
 
-
-    public double getValue(){
-        return 0;
-    }
+    public abstract double getValue();
 }
